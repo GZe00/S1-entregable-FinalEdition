@@ -21,7 +21,7 @@ const QuoteContainer = () => {
 
 
     const tweet1 = 'https://twitter.com/intent/tweet?text=%E2%80%9C';
-    const tweet3 = '%0AEsta%20cita%20me%20encant%C3%B3,%20descubre%20tu%20cita%20ideal!%0AVisita%3A%20https%3A//quotes-by-moises.netlify.app/';
+    const tweet3 = '%0AEsta%20cita%20me%20encant%C3%B3,%20descubre%20tu%20cita%20ideal!%0AVisita%3A%20https%3A//quotesgenerator-bymoises.netlify.app/';
     const enter = '%0A';
     const spaceTwwt = '%20';
 

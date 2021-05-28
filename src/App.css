@@ -18,8 +18,6 @@
   width: 85%;
   height: auto;
   margin: 40px auto;
-
-  /* border: 1px solid #000000; */
 }
 ::-webkit-scrollbar {
   display: none;
@@ -31,7 +29,6 @@
   margin: 1% auto;
   padding: 5px;
   font-family: 'Cinzel', serif;
-  /* border: 1px solid #000000 */
 }
 
 .style-author{
@@ -96,7 +93,7 @@ span{
 }
 
 footer{
-  
+  /* display: flex; */
   background: #414141;
   padding: 60px 0 30px 0;
 }
@@ -127,4 +124,45 @@ footer{
   font-size: 24px;
   margin: 20px 0 0 0;
   color: #e2e2e2be;
+}
+
+@media (max-width: 768px){
+
+  .bg{
+    height: 90vh;
+  }
+
+  .style-quote{
+    font-size: 120%
+  }
+  
+  .style-author{
+    font-size: 110%;
+    width: 50%;
+    margin: 15px auto;
+  }
+  .style-box-buttons{
+    margin: 80px auto;
+  }
+  .butt-tweet{
+    margin-top: 5px;
+    padding:8px 28px;
+  }
+  
+  .butt-new{
+    padding:8px 28px;
+  }
+
+  .contenedor-footer{
+    display: block;
+}
+
+.content-foot p{
+    margin-bottom: 20px;
+}
+footer{
+  display: flexbox;
+  
+}
+
 }
